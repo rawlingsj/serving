@@ -4792,7 +4792,7 @@ spec:
             - --log-level info
           command:
             - envoy
-          image: docker.io/envoyproxy/envoy:v1.24.0
+          image: rawlingsj80/envoy:experiment1
           imagePullPolicy: IfNotPresent
           name: envoy
           env:
@@ -5432,7 +5432,7 @@ spec:
             - --log-level info
           command:
             - envoy
-          image: docker.io/envoyproxy/envoy:v1.24.0
+          image: rawlingsj80/envoy:experiment1
           imagePullPolicy: IfNotPresent
           name: envoy
           env:
